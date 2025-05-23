@@ -1,0 +1,35 @@
+.add-schedule-modal {
+    padding: 24px;
+    min-width: 500px;
+
+    &__header {
+        margin-bottom: 24px;
+
+        h2 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+
+    &__body {
+        margin-bottom: 24px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+    }
+
+    &__error {
+        color: var(--g-color-text-danger-heavy);
+        margin-top: 8px;
+    }
+}

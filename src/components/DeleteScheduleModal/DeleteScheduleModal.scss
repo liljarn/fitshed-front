@@ -1,0 +1,13 @@
+.delete-schedule-modal {
+    padding: 24px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &__footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+    }
+}

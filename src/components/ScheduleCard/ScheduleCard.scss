@@ -1,0 +1,72 @@
+.schedule-card {
+    padding: 24px;
+    background: var(--g-color-base-background);
+    border: 1px solid var(--g-color-line-generic);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        border-color: var(--g-color-line-brand);
+        transform: translateY(-2px);
+    }
+
+    &__content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__header {
+        margin-bottom: 4px;
+    }
+
+    &__divider {
+        height: 1px;
+        background: var(--g-color-line-generic);
+        margin: 4px 0;
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__detail {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    &__icon {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    &__title {
+        margin: 0 0 8px;
+        color: var(--g-color-text-primary);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &__description {
+        margin: 0 0 16px;
+        color: var(--g-color-text-secondary);
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    &__datetime,
+    &__address {
+        margin: 0;
+        color: var(--g-color-text-secondary);
+        font-size: 14px;
+    }
+
+    &__delete {
+        margin-top: 16px;
+    }
+}

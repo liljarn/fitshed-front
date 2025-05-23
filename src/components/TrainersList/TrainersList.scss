@@ -1,0 +1,26 @@
+$block: '.trainersList';
+
+#{$block} {
+    padding: 24px;
+
+    &__title {
+        margin-bottom: 24px;
+    }
+
+    &__empty {
+        text-align: center;
+        color: var(--g-color-text-secondary);
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 300px);
+        gap: 24px;
+        justify-content: center;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+    }
+}
